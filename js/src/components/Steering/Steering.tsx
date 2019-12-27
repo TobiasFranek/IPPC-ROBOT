@@ -37,16 +37,14 @@ export default ({ onChange }: SteeringProps) => {
 
 		let speedLeft = mapNumber(y, -50, 50, -255, 255);
 		let speedRight = mapNumber(y, -50, 50, -255, 255);
-
 		let diffSpeed = mapNumber(x, -50, 50, -255, 255);
 		if (x < 0) {
-			speedLeft -= diffSpeed;
-			speedRight += diffSpeed;
+			speedLeft -= Math.abs(diffSpeed);
+			speedRight += Math.abs(diffSpeed);
 		} else {
-			speedLeft += diffSpeed;
-			speedRight -= diffSpeed;
+			speedLeft += Math.abs(diffSpeed);
+			speedRight -= Math.abs(diffSpeed);
 		}
-
 		speedLeft = clamp(speedLeft, -255, 255);
 		speedRight = clamp(speedRight, -255, 255);
 
