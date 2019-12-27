@@ -1,0 +1,18 @@
+@import 'variables';
+
+@import '../../../node_modules/bootstrap/scss/bootstrap-reboot';
+
+body {
+	background: $background; 
+}
+
+.ultrasonic-font {
+	background: #fff;
+	padding: 10px;
+	min-width: 100px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	position: fixed;
+	left: 0; 
+}

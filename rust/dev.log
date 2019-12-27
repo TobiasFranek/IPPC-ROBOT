@@ -1,0 +1,103 @@
+[2019-12-27T10:23:06.988831+00:00]: New Connection Request.
+[2019-12-27T10:23:06.989162+00:00]: Opening port: "/dev/cu.usbserial-1420"
+[2019-12-27T10:23:06.998497+00:00]: Waiting for Arduino...
+[2019-12-27T10:23:09.618889+00:00]: Waiting for Arduino...
+[2019-12-27T10:23:10.623953+00:00]: Waiting for Arduino...
+[2019-12-27T10:23:11.628755+00:00]: Waiting for Arduino...
+[2019-12-27T10:23:11.628925+00:00]: Connected to Arduino
+[2019-12-27T10:23:11.631527+00:00]: Order received: Some(ALREADY_CONNECTED)
+[2019-12-27T10:23:11.631631+00:00]: Attempting to sync Arduino Config...
+[2019-12-27T10:23:11.634303+00:00]: Order received: Some(RECEIVED)
+[2019-12-27T10:23:11.634390+00:00]: Order received: Some(SYNC_CONFIG)
+[2019-12-27T10:23:11.634429+00:00]: Parameter received: 1
+[2019-12-27T10:23:11.634793+00:00]: Connection from 192.168.0.13:60027
+[2019-12-27T10:23:11.712877+00:00]: Got "ULTRASONIC" event type.
+[2019-12-27T10:23:11.712970+00:00]: Fetching Ultrasonic sensor values.
+[2019-12-27T10:23:11.715795+00:00]: Order received: Some(RECEIVED)
+[2019-12-27T10:23:11.715871+00:00]: Order received: Some(ULTRASONIC)
+[2019-12-27T10:23:11.727728+00:00]: Parameter received: 19444
+[2019-12-27T10:23:11.727824+00:00]: Received Ultrasonic sensor value: 19444
+[2019-12-27T10:23:12.716789+00:00]: Got "ULTRASONIC" event type.
+[2019-12-27T10:23:12.716897+00:00]: Fetching Ultrasonic sensor values.
+[2019-12-27T10:23:12.717006+00:00]: Order received: Some(HELLO)
+[2019-12-27T10:23:12.717231+00:00]: Order received: Some(HELLO)
+[2019-12-27T10:23:12.719603+00:00]: Parameter received: 2566
+[2019-12-27T10:23:12.719690+00:00]: Received Ultrasonic sensor value: 2566
+[2019-12-27T10:23:13.719645+00:00]: Got "ULTRASONIC" event type.
+[2019-12-27T10:23:13.719807+00:00]: Fetching Ultrasonic sensor values.
+[2019-12-27T10:23:13.719954+00:00]: Order received: None
+[2019-12-27T10:23:13.720031+00:00]: Order received: None
+[2019-12-27T10:23:13.720091+00:00]: Parameter received: 0
+[2019-12-27T10:23:13.720154+00:00]: Received Ultrasonic sensor value: 0
+[2019-12-27T10:23:14.721617+00:00]: Got "ULTRASONIC" event type.
+[2019-12-27T10:23:14.721711+00:00]: Fetching Ultrasonic sensor values.
+[2019-12-27T10:23:14.721822+00:00]: Order received: Some(RECEIVED)
+[2019-12-27T10:23:14.721889+00:00]: Order received: Some(ULTRASONIC)
+[2019-12-27T10:23:14.721939+00:00]: Parameter received: 544
+[2019-12-27T10:23:14.722027+00:00]: Received Ultrasonic sensor value: 544
+[2019-12-27T10:23:15.724423+00:00]: Got "ULTRASONIC" event type.
+[2019-12-27T10:23:15.724517+00:00]: Fetching Ultrasonic sensor values.
+[2019-12-27T10:23:15.724641+00:00]: Order received: Some(HELLO)
+[2019-12-27T10:23:15.724860+00:00]: Order received: Some(HELLO)
+[2019-12-27T10:23:15.724960+00:00]: Parameter received: 2566
+[2019-12-27T10:23:15.725003+00:00]: Received Ultrasonic sensor value: 2566
+[2019-12-27T10:23:16.726359+00:00]: Got "ULTRASONIC" event type.
+[2019-12-27T10:23:16.726474+00:00]: Fetching Ultrasonic sensor values.
+[2019-12-27T10:23:16.726574+00:00]: Order received: None
+[2019-12-27T10:23:16.726717+00:00]: Order received: Some(GRABBER)
+[2019-12-27T10:23:16.726984+00:00]: Parameter received: 0
+[2019-12-27T10:23:16.727063+00:00]: Received Ultrasonic sensor value: 0
+[2019-12-27T10:23:17.729327+00:00]: Got "ULTRASONIC" event type.
+[2019-12-27T10:23:17.729415+00:00]: Fetching Ultrasonic sensor values.
+[2019-12-27T10:23:17.729495+00:00]: Order received: Some(RECEIVED)
+[2019-12-27T10:23:17.729575+00:00]: Order received: Some(ULTRASONIC)
+[2019-12-27T10:23:17.729645+00:00]: Parameter received: 448
+[2019-12-27T10:23:17.729688+00:00]: Received Ultrasonic sensor value: 448
+[2019-12-27T10:23:18.732666+00:00]: Got "ULTRASONIC" event type.
+[2019-12-27T10:23:18.732855+00:00]: Fetching Ultrasonic sensor values.
+[2019-12-27T10:23:18.733094+00:00]: Order received: Some(HELLO)
+[2019-12-27T10:23:18.733209+00:00]: Order received: Some(HELLO)
+[2019-12-27T10:23:18.733357+00:00]: Parameter received: 2566
+[2019-12-27T10:23:18.733409+00:00]: Received Ultrasonic sensor value: 2566
+[2019-12-27T10:23:19.738907+00:00]: Got "ULTRASONIC" event type.
+[2019-12-27T10:23:19.739079+00:00]: Fetching Ultrasonic sensor values.
+[2019-12-27T10:23:19.739191+00:00]: Order received: None
+[2019-12-27T10:23:19.739368+00:00]: Order received: Some(CRANE_DIRECTION)
+[2019-12-27T10:23:19.739585+00:00]: Parameter received: 0
+[2019-12-27T10:23:19.739654+00:00]: Received Ultrasonic sensor value: 0
+[2019-12-27T10:23:20.742739+00:00]: Got "ULTRASONIC" event type.
+[2019-12-27T10:23:20.742866+00:00]: Fetching Ultrasonic sensor values.
+[2019-12-27T10:23:20.742982+00:00]: Order received: Some(RECEIVED)
+[2019-12-27T10:23:20.743152+00:00]: Order received: Some(ULTRASONIC)
+[2019-12-27T10:23:20.743217+00:00]: Parameter received: 379
+[2019-12-27T10:23:20.743257+00:00]: Received Ultrasonic sensor value: 379
+[2019-12-27T10:23:21.746302+00:00]: Got "ULTRASONIC" event type.
+[2019-12-27T10:23:21.746405+00:00]: Fetching Ultrasonic sensor values.
+[2019-12-27T10:23:21.746604+00:00]: Order received: Some(HELLO)
+[2019-12-27T10:23:21.746744+00:00]: Order received: Some(HELLO)
+[2019-12-27T10:23:21.746882+00:00]: Parameter received: 2566
+[2019-12-27T10:23:21.746934+00:00]: Received Ultrasonic sensor value: 2566
+[2019-12-27T10:23:22.749105+00:00]: Got "ULTRASONIC" event type.
+[2019-12-27T10:23:22.749196+00:00]: Fetching Ultrasonic sensor values.
+[2019-12-27T10:23:22.749289+00:00]: Order received: None
+[2019-12-27T10:23:22.749364+00:00]: Order received: Some(MOTOR)
+[2019-12-27T10:23:22.749413+00:00]: Parameter received: 0
+[2019-12-27T10:23:22.749459+00:00]: Received Ultrasonic sensor value: 0
+[2019-12-27T10:23:23.754133+00:00]: Got "ULTRASONIC" event type.
+[2019-12-27T10:23:23.754240+00:00]: Fetching Ultrasonic sensor values.
+[2019-12-27T10:23:23.754341+00:00]: Order received: Some(RECEIVED)
+[2019-12-27T10:23:23.754539+00:00]: Order received: Some(ULTRASONIC)
+[2019-12-27T10:23:23.754648+00:00]: Parameter received: 544
+[2019-12-27T10:23:23.754697+00:00]: Received Ultrasonic sensor value: 544
+[2019-12-27T10:23:24.759885+00:00]: Got "ULTRASONIC" event type.
+[2019-12-27T10:23:24.759993+00:00]: Fetching Ultrasonic sensor values.
+[2019-12-27T10:23:24.760129+00:00]: Order received: Some(HELLO)
+[2019-12-27T10:23:24.760183+00:00]: Order received: Some(HELLO)
+[2019-12-27T10:23:24.760236+00:00]: Parameter received: 2566
+[2019-12-27T10:23:24.760331+00:00]: Received Ultrasonic sensor value: 2566
+[2019-12-27T10:23:25.757681+00:00]: Got "ULTRASONIC" event type.
+[2019-12-27T10:23:25.757799+00:00]: Fetching Ultrasonic sensor values.
+[2019-12-27T10:23:25.757904+00:00]: Order received: None
+[2019-12-27T10:23:25.758068+00:00]: Order received: Some(GRABBER)
+[2019-12-27T10:23:25.758196+00:00]: Parameter received: 0
+[2019-12-27T10:23:25.758253+00:00]: Received Ultrasonic sensor value: 0
