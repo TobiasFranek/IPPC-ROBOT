@@ -31,8 +31,8 @@ use serde_json::json;
 fn main() {
 	let debug = env::var("DEBUG").unwrap();
 	let debug: bool = debug.parse().unwrap();
-
-	let server = Server::bind("192.168.0.13:2794").unwrap();
+	let ip_string = env::var("IP").unwrap(); 
+	let server = Server::bind(ip_string).unwrap();
 
 	for request in server.filter_map(Result::ok) {
 		// Spawn a new thread for each connection.
