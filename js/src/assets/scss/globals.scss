@@ -16,3 +16,15 @@ body {
 	position: fixed;
 	left: 0; 
 }
+
+.video-stream {
+	display: flex;
+	z-index: -1;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	&__image {
+		max-width: 100%;
+	}
+}

@@ -6,10 +6,10 @@ import * as serviceWorker from './serviceWorker';
 
 if (process.env.REACT_APP_WEBSOCKET) {
 	const socket = new WebSocket(process.env.REACT_APP_WEBSOCKET, 'rust-websocket');
+	ReactDOM.render(<App socket={socket}/>, document.getElementById('root'));
 
 	socket.onopen = () => {
 		console.log('Connected to websocket.');
-		ReactDOM.render(<App socket={socket}/>, document.getElementById('root'));
 	};
 
 	socket.onerror = () => {
