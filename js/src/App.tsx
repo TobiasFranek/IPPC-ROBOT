@@ -29,7 +29,7 @@ export default ({ socket } : AppProps) => {
 		const event = {
 			event: 'ULTRASONIC'
 		}
-		//socket.send(JSON.stringify(event));
+		socket.send(JSON.stringify(event));
 		return setTimeout(polling, 1000);
 	}
 
@@ -41,7 +41,7 @@ export default ({ socket } : AppProps) => {
 				direction
 			}
 		}
-		//socket.send(JSON.stringify(event));
+		socket.send(JSON.stringify(event));
 	}
 
 	const onCraneChange = (direction: number) => {
@@ -51,7 +51,7 @@ export default ({ socket } : AppProps) => {
 				direction
 			}
 		}
-		//socket.send(JSON.stringify(event));
+		socket.send(JSON.stringify(event));
 	}
 
 	const onSteeringChange = (params : { left: number, right: number }) => {
@@ -60,7 +60,7 @@ export default ({ socket } : AppProps) => {
 			config: params
 		
 		}
-		//socket.send(JSON.stringify(event));
+		socket.send(JSON.stringify(event));
 	}
 
 	if (!process.env.REACT_APP_VIDEO_STREAM) return null;
